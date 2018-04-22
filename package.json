@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test-cards": "jest cards",
+    "test-loans": "jest loans"
+  },
+  "dependencies": {
+    "jest": "^22.4.3",
+    "ramda": "^0.25.0"
+  }
+}
