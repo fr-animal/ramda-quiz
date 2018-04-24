@@ -1,5 +1,5 @@
 const getLoans = require("./loans");
-const products = require("./loans.fixture.js");
+const products = require("./loans.fixture.js")
 
 describe("Quiz!", () => {
   it("Returns the correct loans", () => {
