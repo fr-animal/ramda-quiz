@@ -1,4 +1,4 @@
-const { someoneHasAnAceOfSpade } = require("./cards");
+const { someoneHasAnAceOfSpade } = require("./cards")
 
 describe("Quiz!", () => {
   it("Returns true when someone has an ace of space", () => {
@@ -8,7 +8,7 @@ describe("Quiz!", () => {
       [{ suit: "◆", rank: "A" }, { suit: "♠︎", rank: "K" }]
     ];
 
-    expect(someoneHasAnAceOfSpade(hands)).toBe(true);
+    expect(someoneHasAnAceOfSpade(hands)).toBe(true)
   });
 
   it("Returns false when someone doesn't have an ace of space", () => {
@@ -18,6 +18,6 @@ describe("Quiz!", () => {
       [{ suit: "♠︎", rank: "2" }, { suit: "◆", rank: "J" }]
     ];
 
-    expect(someoneHasAnAceOfSpade(hands)).toBe(false);
+    expect(someoneHasAnAceOfSpade(hands)).toBe(false)
   });
 });
