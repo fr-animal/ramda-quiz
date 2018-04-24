@@ -1,5 +1,5 @@
-const R = require("ramda");
+const R = require("ramda")
 
-const getLoans = (prods, loanAmount, maxInterest, months) => {};
+const getLoans = (prods, loanAmount, maxInterest, months) => {}
 
-module.exports = getLoans;
+module.exports = getLoans
