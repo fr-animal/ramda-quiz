@@ -1,5 +1,5 @@
-const R = require("ramda");
+const R = require("ramda")
 
-const someoneHasAnAceOfSpade = () => {};
+const someoneHasAnAceOfSpade = () => {}
 
-module.exports = { someoneHasAnAceOfSpade };
+module.exports = { someoneHasAnAceOfSpade }
